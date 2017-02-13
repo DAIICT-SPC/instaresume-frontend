@@ -1,12 +1,20 @@
-// Font
+// Typography
 $family-serif: 'Roboto Slab', serif;
-$family-primary: $family-serif;
+$family-sans-serif: 'Roboto', sans-serif;
+$family-primary: $family-sans-serif;
+$letter-spacing: 0.04em;
 
 // Colors
 $primary: #2998FF;
+
+// Misc
+$radius: 2px;
 
 // Sidebar
 $sidebar-background: $primary;
 $sidebar-width: 30%;
 $sidebar-color: darken($primary, 25%);
 $sidebar-padding: 20px;
+
+// Panel
+$panel-header-background: darken($primary, 15%);

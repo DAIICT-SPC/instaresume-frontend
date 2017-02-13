@@ -7,9 +7,13 @@
     max-width: $sidebar-width;
     width: 100%;
     color: $sidebar-color;
-    padding: $sidebar-padding;
+
+    .wrapper {
+        padding: $sidebar-padding;
+    }
 
     .logo {
+        font-family: $family-serif;
         display: block;
 
         img {
@@ -26,6 +30,7 @@
     }
 
     .tagline {
+        font-family: $family-serif;
         margin-top: 20px;
         font-size: 1.2em;
         line-height: 2;

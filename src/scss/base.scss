@@ -1,4 +1,10 @@
 html, body {
     height: 100%;
     overflow: auto;
+    letter-spacing: $letter-spacing;
+    background: #f0f3f7;
+}
+
+.hidden {
+    display: none;
 }

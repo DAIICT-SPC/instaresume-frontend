@@ -1,0 +1,12 @@
+.sidebar-form {
+    margin-top: 20px;
+
+    label {
+        font-size: 1em;
+        color: lighten($grey-dark, 20%);
+    }
+    .input {
+        border: none;
+        font-size: 1em;
+    }
+}

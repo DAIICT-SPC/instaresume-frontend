@@ -1,0 +1,18 @@
+.panel {
+    .panel-header {
+        background: $panel-header-background;
+        padding: 15px;
+        cursor: pointer;
+        color: lighten($panel-header-background, 40%);
+
+        .icon {
+            font-size: 0.8em;
+            float: right;
+        }
+    }
+
+    .panel-body {
+        padding: 15px;
+        background: #fff;
+    }
+}
