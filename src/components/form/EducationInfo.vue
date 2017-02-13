@@ -1,11 +1,8 @@
 <template lang="html">
     <div class="form education-info-form">
-        <div class="block">
             <degree v-for="(degree, index) in degrees" :degree="degree" :id="parseInt(index)"></degree>
-        </div>
-
         <div>
-            <button type="button" class="button is-primary" @click="addDegree">
+            <button type="button" class="button is-medium is-primary block" @click="addDegree">
                 <span class="fa icon icon-small fa-plus"></span> Add
             </button>
         </div>
