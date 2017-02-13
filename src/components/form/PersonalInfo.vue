@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: 'basic-info',
+  name: 'personal-info',
 
   data() {
     return {

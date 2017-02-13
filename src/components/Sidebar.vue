@@ -9,7 +9,7 @@
 
         <div class="sidebar-form">
             <panel title="Personal Info" :isOpen="true" >
-                <basic-info></basic-info>
+                <personal-info></personal-info>
             </panel>
         </div>
     </div>
@@ -17,7 +17,7 @@
 
 <script>
 import Panel from './Panel'
-import BasicInfo from './form/BasicInfo'
+import PersonalInfo from './form/PersonalInfo'
 
 export default {
     name: 'sidebar',
@@ -29,7 +29,7 @@ export default {
 
     components: {
         Panel,
-        BasicInfo
+        PersonalInfo
     }
 }
 </script>
