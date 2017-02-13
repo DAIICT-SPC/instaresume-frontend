@@ -15,6 +15,10 @@
             <panel title="Education" >
                 <education-info></education-info>
             </panel>
+
+            <panel title="Skills" >
+                <skill-info></skill-info>
+            </panel>
         </form>
     </div>
 </template>
@@ -23,6 +27,7 @@
 import Panel from './Panel'
 import PersonalInfo from './form/PersonalInfo'
 import EducationInfo from './form/EducationInfo'
+import SkillInfo from './form/SkillInfo'
 
 export default {
     name: 'sidebar',
@@ -35,7 +40,8 @@ export default {
     components: {
         Panel,
         PersonalInfo,
-        EducationInfo
+        EducationInfo,
+        SkillInfo
     }
 }
 </script>
