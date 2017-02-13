@@ -1,6 +1,6 @@
 <template lang="html">
     <div class="form degree-form">
-        <panel :title="'Degree #' + (id + 1)">
+        <panel :title="title">
             <div class="form-input">
                 <label class="label">Degree Name</label>
                 <p class="control">
@@ -48,6 +48,17 @@ export default {
     };
   },
 
+  computed: {
+    title() {
+      if (this.degree.name.length < 1) {
+        return 'Degree #' + (this.id + 1);
+      }
+
+      return this.degree.name;
+
+    }
+  },
+
   props: {
     id: {
       type: Number,
@@ -59,10 +70,10 @@ export default {
   },
 
   methods: {
-    removeDegree (id) {
-        this.$bus.$emit('remove-degree', id);
+    removeDegree(id) {
+      this.$bus.$emit('remove-degree', id);
     }
-},
+  },
 
   components: {
     Panel
