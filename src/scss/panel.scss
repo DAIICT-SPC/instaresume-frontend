@@ -3,13 +3,26 @@
         margin-bottom: 0;
     }
 
+    .panel {
+
+        margin-bottom: 15px;
+
+        .panel-header {
+            border: solid 1px darken($white-ter, 5%);
+        }
+
+        .panel-body {
+            border: solid 1px darken($white-ter, 5%);
+            border-top: none;
+        }
+    }
+
     .panel-header {
         background: $panel-header-background;
         padding: 15px;
         cursor: pointer;
         text-transform: uppercase;
         color: $panel-header-color;
-        box-shadow: 0px 2px 4px darken($white, 10%);
         border-bottom: solid 1px darken($white-ter, 5%);
 
         .icon {

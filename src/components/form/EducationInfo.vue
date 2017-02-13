@@ -8,7 +8,7 @@
             <button type="button" class="button is-primary" @click="addDegree">
                 <span class="fa icon icon-small fa-plus"></span> Add
             </button>
-            <button type="button" class="button is-danger" v-show="degreeCount > 1" @click="removeDegree">
+            <button type="button" class="button is-default is-pulled-right" v-show="degreeCount > 1" @click="removeDegree">
                 <span class="fa icon icon-small fa-remove"></span> Remove
             </button>
         </div>
