@@ -1,0 +1,25 @@
+.sidebar {
+    background: $sidebar-background;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    max-width: $sidebar-width;
+    width: 100%;
+    color: $sidebar-color;
+    padding: $sidebar-padding;
+
+    .logo {
+        img {
+            width: 40px;
+            vertical-align: baseline;
+        }
+
+        span {
+            color: $white;
+            font-size: 2.6em;
+            vertical-align: baseline;
+            margin-left: 5px;
+        }
+    }
+}

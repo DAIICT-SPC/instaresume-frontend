@@ -4,3 +4,9 @@ $family-primary: $family-serif;
 
 // Colors
 $primary: #2998FF;
+
+// Sidebar
+$sidebar-background: $primary;
+$sidebar-width: 30%;
+$sidebar-color: darken($primary, 25%);
+$sidebar-padding: 20px;
