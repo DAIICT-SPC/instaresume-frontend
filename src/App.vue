@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-    <hello></hello>
-  </div>
+<div id="app">
+  <hello></hello>
+</div>
 </template>
 
 <script>
@@ -15,13 +15,8 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #999999;
-  margin-top: 60px;
-}
+<style lang="scss">
+// Import the application styling
+@import "./scss/app";
+
 </style>
