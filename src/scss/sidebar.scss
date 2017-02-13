@@ -10,6 +10,8 @@
     padding: $sidebar-padding;
 
     .logo {
+        display: block;
+
         img {
             width: 40px;
             vertical-align: baseline;
@@ -21,5 +23,11 @@
             vertical-align: baseline;
             margin-left: 5px;
         }
+    }
+
+    .tagline {
+        margin-top: 20px;
+        font-size: 1.2em;
+        line-height: 2;
     }
 }
