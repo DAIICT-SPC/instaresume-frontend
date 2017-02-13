@@ -19,6 +19,10 @@
             <panel title="Skills" >
                 <skill-info></skill-info>
             </panel>
+
+            <panel title="Projects" >
+                <project-info></project-info>
+            </panel>
         </form>
     </div>
 </template>
@@ -27,6 +31,7 @@
 import Panel from './Panel'
 import PersonalInfo from './form/PersonalInfo'
 import EducationInfo from './form/EducationInfo'
+import ProjectInfo from './form/ProjectInfo'
 import SkillInfo from './form/SkillInfo'
 
 export default {
@@ -41,6 +46,7 @@ export default {
         Panel,
         PersonalInfo,
         EducationInfo,
+        ProjectInfo,
         SkillInfo
     }
 }
