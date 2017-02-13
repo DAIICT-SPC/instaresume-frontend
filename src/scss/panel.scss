@@ -3,20 +3,6 @@
         margin-bottom: 0;
     }
 
-    .panel {
-
-        margin-bottom: 15px;
-
-        .panel-header {
-            border: solid 1px darken($white-ter, 5%);
-        }
-
-        .panel-body {
-            border: solid 1px darken($white-ter, 5%);
-            border-top: none;
-        }
-    }
-
     .panel-header {
         background: $panel-header-background;
         padding: 15px;
@@ -35,5 +21,26 @@
         padding: 15px;
         background: #fff;
         border-bottom: solid 1px darken($white-ter, 5%);
+    }
+
+    // Open Panel
+    &.open {
+        .panel-header {
+            font-weight: bold;
+        }
+    }
+
+    // Nested Panels
+    .panel {
+        margin-bottom: 15px;
+
+        .panel-header {
+            border: solid 1px darken($white-ter, 5%);
+        }
+
+        .panel-body {
+            border: solid 1px darken($white-ter, 5%);
+            border-top: none;
+        }
     }
 }

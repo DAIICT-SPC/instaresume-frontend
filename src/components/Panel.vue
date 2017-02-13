@@ -1,5 +1,5 @@
 <template lang="html">
-<div class="panel">
+<div :class="{ panel: true, open: !isHidden}">
     <div class="panel-header" @click="toggle">
         <p>{{ title }} <span :class="{ 'fa icon': true, 'fa-chevron-down': isHidden, 'fa-chevron-up': !isHidden }"></span></p>
     </div>
