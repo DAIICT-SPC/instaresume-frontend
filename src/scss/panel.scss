@@ -1,4 +1,8 @@
 .panel {
+    &:not(:last-child) {
+        margin-bottom: 0;
+    }
+
     .panel-header {
         background: $panel-header-background;
         padding: 15px;
