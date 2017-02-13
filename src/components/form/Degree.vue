@@ -4,30 +4,34 @@
             <div class="form-input">
                 <label class="label">Degree Name</label>
                 <p class="control">
-                  <input class="input" type="text" placeholder="BCA" v-model="name">
+                  <input class="input" type="text" placeholder="BCA" v-model="degree.name">
                 </p>
             </div>
 
             <div class="form-input">
                 <label class="label">Institute/University</label>
                 <p class="control">
-                  <input class="input" type="text" placeholder="Institute/University" v-model="institute">
+                  <input class="input" type="text" placeholder="Institute/University" v-model="degree.institute">
                 </p>
             </div>
 
             <div class="form-input">
                 <label class="label">Year</label>
                 <p class="control">
-                  <input class="input" type="text" placeholder="2013 - 2015" v-model="year">
+                  <input class="input" type="text" placeholder="2013 - 2015" v-model="degree.year">
                 </p>
             </div>
 
             <div class="form-input">
                 <label class="label">CPI/Aggregate</label>
                 <p class="control">
-                  <input class="input" type="text" placeholder="8.00 / 75%" v-model="score">
+                  <input class="input" type="text" placeholder="8.00 / 75%" v-model="degree.score">
                 </p>
             </div>
+
+            <button type="button" class="button is-danger" @click="removeDegree(id)">
+                <span class="fa icon icon-small fa-remove"></span> Remove
+            </button>
         </panel>
     </div>
 </template>
@@ -36,27 +40,33 @@
 import Panel from '../Panel'
 
 export default {
-    name: 'degree',
+  name: 'degree',
 
-    data () {
-        return {
-            name: '',
-            institute: '',
-            year: '',
-            score: ''
-        };
+  data() {
+    return {
+
+    };
+  },
+
+  props: {
+    id: {
+      type: Number,
+      required: true
     },
+    degree: {
 
-    props: {
-        id: {
-            type: Number,
-            required: true
-        }
-    },
-
-    components: {
-        Panel
     }
+  },
+
+  methods: {
+    removeDegree (id) {
+        this.$bus.$emit('remove-degree', id);
+    }
+},
+
+  components: {
+    Panel
+  }
 
 }
 </script>
