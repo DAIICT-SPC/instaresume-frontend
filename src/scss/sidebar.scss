@@ -8,7 +8,8 @@
     width: 100%;
     color: $sidebar-color;
 
-    .wrapper {
+    .logo-wrapper {
+        background: $primary;
         padding: $sidebar-padding;
     }
 
@@ -27,12 +28,5 @@
             vertical-align: baseline;
             margin-left: 5px;
         }
-    }
-
-    .tagline {
-        font-family: $family-serif;
-        margin-top: 20px;
-        font-size: 1.2em;
-        line-height: 2;
     }
 }

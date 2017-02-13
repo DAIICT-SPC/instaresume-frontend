@@ -1,8 +1,14 @@
-// Variables
-@import "./variables";
+// Override Bulma Variables
+$family-serif: 'Roboto Slab', serif;
+$family-sans-serif: 'Roboto', sans-serif;
+$family-primary: $family-sans-serif;
 
 // Bulma
 @import "../node_modules/bulma/bulma";
+
+// Variables
+@import "./variables";
+
 
 // Base
 @import "./base";

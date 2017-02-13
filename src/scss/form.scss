@@ -1,12 +1,26 @@
 .sidebar-form {
-    margin-top: 20px;
+  label {
+    font-weight: normal;
+    text-transform: uppercase;
+    color: $grey;
+  }
 
-    label {
-        font-size: 1em;
-        color: lighten($grey-dark, 20%);
+  .form-input {
+      margin-bottom: 20px;
+  }
+
+  .input {
+    border: none;
+    height: 3em;
+    box-shadow: none;
+    border-radius: 0;
+    color: $grey-dark;
+    border-bottom: solid 2px $grey-lighter;
+    transition: all 0.3s ease-in-out;
+
+    &:focus {
+      color: $primary;
+      border-bottom-color: $primary;
     }
-    .input {
-        border: none;
-        font-size: 1em;
-    }
+  }
 }

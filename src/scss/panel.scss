@@ -3,7 +3,10 @@
         background: $panel-header-background;
         padding: 15px;
         cursor: pointer;
-        color: lighten($panel-header-background, 40%);
+        text-transform: uppercase;
+        color: $panel-header-color;
+        box-shadow: 0px 2px 4px darken($white, 10%);
+        border-bottom: solid 1px darken($white-ter, 5%);
 
         .icon {
             font-size: 0.8em;
@@ -14,5 +17,6 @@
     .panel-body {
         padding: 15px;
         background: #fff;
+        border-bottom: solid 1px darken($white-ter, 5%);
     }
 }
