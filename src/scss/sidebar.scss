@@ -8,6 +8,7 @@
     width: 100%;
     color: $sidebar-color;
     overflow-y: auto;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.05);
 
     .logo-wrapper {
         background: $primary;
