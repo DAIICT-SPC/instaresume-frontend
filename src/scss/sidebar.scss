@@ -7,6 +7,7 @@
     max-width: $sidebar-width;
     width: 100%;
     color: $sidebar-color;
+    overflow-y: auto;
 
     .logo-wrapper {
         background: $primary;

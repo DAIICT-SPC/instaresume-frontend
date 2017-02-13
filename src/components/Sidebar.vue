@@ -7,17 +7,22 @@
             </a>
         </div>
 
-        <div class="sidebar-form">
-            <panel title="Personal Info" :isOpen="true" >
+        <form class="sidebar-form">
+            <panel title="Personal Info" :isOpen="false" >
                 <personal-info></personal-info>
             </panel>
-        </div>
+
+            <panel title="Education" >
+                <education-info></education-info>
+            </panel>
+        </form>
     </div>
 </template>
 
 <script>
 import Panel from './Panel'
 import PersonalInfo from './form/PersonalInfo'
+import EducationInfo from './form/EducationInfo'
 
 export default {
     name: 'sidebar',
@@ -29,7 +34,8 @@ export default {
 
     components: {
         Panel,
-        PersonalInfo
+        PersonalInfo,
+        EducationInfo
     }
 }
 </script>
