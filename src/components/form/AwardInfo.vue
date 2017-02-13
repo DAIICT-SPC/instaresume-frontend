@@ -18,7 +18,7 @@ export default {
 
   created() {
     this.$bus.$on('remove-award', (id) => {
-      this.awards.splice(id, 1);
+      this.removeAward(id);
     });
   },
 
@@ -39,8 +39,7 @@ export default {
     },
 
     removeAward(index) {
-      console.log(this.awards[index]);
-      if (this.awards[index] && this.awards[index].length < 1) {
+      if (this.awards[index].name.length < 1) {
         this.awards.splice(index, 1);
       }
     }

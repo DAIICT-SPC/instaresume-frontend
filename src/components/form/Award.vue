@@ -1,7 +1,7 @@
 <template lang="html">
     <div class="form award-form">
         <div class="form-input">
-            <input type="text" :placeholder="'Award/Achievement #' + (id + 1)" class="input" v-model="award.title" @keyup.8="removeAward(id)" />
+            <input type="text" :placeholder="'Award/Achievement #' + (id + 1)" class="input" v-model="award.name" @keyup.8="removeAward(id)" />
         </div>
     </div>
 </template>

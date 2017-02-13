@@ -27,6 +27,10 @@
             <panel title="Awards and Achievements" >
                 <award-info></award-info>
             </panel>
+
+            <panel title="Interests and Hobbies" >
+                <hobby-info></hobby-info>
+            </panel>
         </form>
     </div>
 </template>
@@ -37,6 +41,7 @@ import PersonalInfo from './form/PersonalInfo'
 import EducationInfo from './form/EducationInfo'
 import ProjectInfo from './form/ProjectInfo'
 import SkillInfo from './form/SkillInfo'
+import HobbyInfo from './form/HobbyInfo'
 import AwardInfo from './form/AwardInfo'
 
 export default {
@@ -53,6 +58,7 @@ export default {
         EducationInfo,
         ProjectInfo,
         AwardInfo,
+        HobbyInfo,
         SkillInfo
     }
 }
