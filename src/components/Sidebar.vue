@@ -23,6 +23,10 @@
             <panel title="Projects" >
                 <project-info></project-info>
             </panel>
+
+            <panel title="Awards and Achievements" >
+                <award-info></award-info>
+            </panel>
         </form>
     </div>
 </template>
@@ -33,6 +37,7 @@ import PersonalInfo from './form/PersonalInfo'
 import EducationInfo from './form/EducationInfo'
 import ProjectInfo from './form/ProjectInfo'
 import SkillInfo from './form/SkillInfo'
+import AwardInfo from './form/AwardInfo'
 
 export default {
     name: 'sidebar',
@@ -47,6 +52,7 @@ export default {
         PersonalInfo,
         EducationInfo,
         ProjectInfo,
+        AwardInfo,
         SkillInfo
     }
 }
