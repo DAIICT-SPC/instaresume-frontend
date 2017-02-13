@@ -23,4 +23,9 @@
       border-bottom-color: $primary;
     }
   }
+
+  .textarea {
+      resize: none;
+      min-height: 80px;
+  }
 }
