@@ -24,7 +24,7 @@ export default {
 
   data() {
     return {
-      projects: []
+
     };
   },
 
@@ -42,6 +42,13 @@ export default {
 
   components: {
     Project
+  },
+
+  props: {
+    projects: {
+      type: Array,
+      required: true
+    }
   }
 
 }

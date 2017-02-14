@@ -3,21 +3,21 @@
         <div class="form-input">
             <label class="label">Expertise Area/Area(s) of Interest</label>
             <p class="control">
-              <textarea class="textarea input" type="text" placeholder="Web Development, App Development, API Development, Open Source" v-model="expertise"></textarea>
+              <textarea class="textarea input" type="text" placeholder="Web Development, App Development, API Development, Open Source" v-model="skill.expertise"></textarea>
             </p>
         </div>
 
         <div class="form-input">
             <label class="label">Programming Language(s)</label>
             <p class="control">
-              <textarea class="textarea input" type="text" placeholder="C, C++, Java, JavaScript, PHP, Python" v-model="programming_languages"></textarea>
+              <textarea class="textarea input" type="text" placeholder="C, C++, Java, JavaScript, PHP, Python" v-model="skill.programming_languages"></textarea>
             </p>
         </div>
 
         <div class="form-input">
             <label class="label">Tools and Technologies</label>
             <p class="control">
-              <textarea class="textarea input" type="text" placeholder="Android, Socket.io, Arduino, Firebase" v-model="tools"></textarea>
+              <textarea class="textarea input" type="text" placeholder="Android, Socket.io, Arduino, Firebase" v-model="skill.tools"></textarea>
             </p>
         </div>
     </div>
@@ -29,10 +29,15 @@ export default {
 
   data() {
     return {
-      expertise: "",
-      programming_languages: "",
-      tools: ""
+
     };
+  },
+
+  props: {
+    skill: {
+      type: Object,
+      required: true
+    }
   }
 
 }

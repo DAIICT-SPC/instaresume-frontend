@@ -1,14 +1,22 @@
 <template>
 <div id="app">
-  <sidebar></sidebar>
+  <sidebar :student="student"></sidebar>
 </div>
 </template>
 
 <script>
 import Sidebar from './components/Sidebar'
+import studentData from './models/student';
 
 export default {
   name: 'app',
+
+  data () {
+    return {
+        student: studentData
+    }
+  },
+
   components: {
     Sidebar
   }

@@ -24,7 +24,7 @@ export default {
 
   data() {
     return {
-      awards: []
+      
     };
   },
 
@@ -47,6 +47,13 @@ export default {
 
   components: {
     Award
+  },
+
+  props: {
+    awards: {
+      type: Array,
+      required: true
+    }
   }
 
 }

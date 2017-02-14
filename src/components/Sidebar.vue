@@ -7,45 +7,16 @@
             </a>
         </div>
 
-        <form class="sidebar-form">
-            <panel title="Personal Info" :isOpen="false" >
-                <personal-info></personal-info>
-            </panel>
-
-            <panel title="Education" >
-                <education-info></education-info>
-            </panel>
-
-            <panel title="Skills" >
-                <skill-info></skill-info>
-            </panel>
-
-            <panel title="Projects" >
-                <project-info></project-info>
-            </panel>
-
-            <panel title="Awards and Achievements" >
-                <award-info></award-info>
-            </panel>
-
-            <panel title="Interests and Hobbies" >
-                <hobby-info></hobby-info>
-            </panel>
-        </form>
+        <sidebar-form :student="student"></sidebar-form>
     </div>
 </template>
 
 <script>
-import Panel from './Panel'
-import PersonalInfo from './form/PersonalInfo'
-import EducationInfo from './form/EducationInfo'
-import ProjectInfo from './form/ProjectInfo'
-import SkillInfo from './form/SkillInfo'
-import HobbyInfo from './form/HobbyInfo'
-import AwardInfo from './form/AwardInfo'
+import SidebarForm from './SidebarForm'
 
 export default {
     name: 'sidebar',
+
     data () {
         return {
             title: "InstaResume"
@@ -53,13 +24,14 @@ export default {
     },
 
     components: {
-        Panel,
-        PersonalInfo,
-        EducationInfo,
-        ProjectInfo,
-        AwardInfo,
-        HobbyInfo,
-        SkillInfo
+        SidebarForm
+    },
+
+    props: {
+        student: {
+            required: true,
+            type: Object
+        }
     }
 }
 </script>

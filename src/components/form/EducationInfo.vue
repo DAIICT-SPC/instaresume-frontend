@@ -24,7 +24,7 @@ export default {
 
   data() {
     return {
-      degrees: []
+
     };
   },
 
@@ -42,6 +42,13 @@ export default {
 
   components: {
     Degree
+  },
+
+  props: {
+    degrees: {
+        required: true,
+        type: Array
+    }
   }
 
 }

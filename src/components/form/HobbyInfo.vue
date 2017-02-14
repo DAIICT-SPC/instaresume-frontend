@@ -24,7 +24,7 @@ export default {
 
   data() {
     return {
-      hobbies: []
+
     };
   },
 
@@ -47,6 +47,13 @@ export default {
 
   components: {
     Hobby
+  },
+
+  props: {
+    hobbies: {
+      type: Array,
+      required: true
+    }
   }
 
 }
