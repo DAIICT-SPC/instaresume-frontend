@@ -1,11 +1,13 @@
 <template>
 <div id="app">
   <sidebar :student="student"></sidebar>
+  <resume-template :student="student"></resume-template>
 </div>
 </template>
 
 <script>
 import Sidebar from './components/Sidebar'
+import ResumeTemplate from './components/ResumeTemplate'
 import studentData from './models/student';
 
 export default {
@@ -18,7 +20,8 @@ export default {
   },
 
   components: {
-    Sidebar
+    Sidebar,
+    ResumeTemplate
   }
 }
 </script>
