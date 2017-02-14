@@ -102,7 +102,7 @@
                 <tr v-for="(project, index) in student.projects">
                     <td class="w-80" valign="top">
                         <p>
-                            <b>{{project.title}}</b>
+                            <b>{{project.name}}</b>
                         </p>
                         <p>
                             {{project.description}}
