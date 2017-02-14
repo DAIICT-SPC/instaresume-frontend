@@ -1,7 +1,7 @@
 <template lang="html">
     <div class="form hobby-form">
         <div class="form-input">
-            <input type="text" :placeholder="'Hobby #' + (id + 1)" class="input" v-model="hobby.name" @keyup.8="removeHoppy(id)" />
+            <input type="text" :placeholder="'Hobby #' + (id + 1)" class="input" v-model="hobby.name" @keydown.8="removeHoppy(id)" />
         </div>
     </div>
 </template>
