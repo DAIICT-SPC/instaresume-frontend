@@ -2,9 +2,10 @@
     <div class="sidebar">
         <div class="logo-wrapper">
             <a href="index.html" class="logo">
-                <img src="../assets/logo.svg" alt="InstaResume" />
-                <span>{{ title }}</span>
+                <img src="../assets/logo.svg" :alt="title" />
+                <!-- <span>{{ title }}</span> -->
             </a>
+            <generate-button></generate-button>
         </div>
 
         <sidebar-form :student="student"></sidebar-form>
@@ -13,25 +14,27 @@
 
 <script>
 import SidebarForm from './SidebarForm'
+import GenerateButton from './GenerateButton'
 
 export default {
-    name: 'sidebar',
+  name: 'sidebar',
 
-    data () {
-        return {
-            title: "InstaResume"
-        };
-    },
+  data() {
+    return {
+      title: "InstaResume"
+    };
+  },
 
-    components: {
-        SidebarForm
-    },
+  components: {
+    SidebarForm,
+    GenerateButton
+  },
 
-    props: {
-        student: {
-            required: true,
-            type: Object
-        }
+  props: {
+    student: {
+      required: true,
+      type: Object
     }
+  }
 }
 </script>
