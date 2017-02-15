@@ -45,7 +45,7 @@ export default {
         return result.user;
       }).then((user) => {
         // Model User Data
-        return User.createFromGoogleData(user);
+        return User.fromGoogleData(user);
       }).then((user) => {
         // User authenticated and modeled
         // Now, emit.

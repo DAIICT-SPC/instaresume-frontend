@@ -4,7 +4,7 @@ export default {
     email: "",
     photoUrl: "",
 
-    createFromGoogleData (data) {
+    fromGoogleData (data) {
         this.id = data.uid;
         this.name = data.displayName;
         this.email = data.email;
