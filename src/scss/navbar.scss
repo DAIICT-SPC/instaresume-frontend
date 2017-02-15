@@ -45,6 +45,15 @@
       font-size: 0.8em;
     }
 
+    img {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      vertical-align: middle;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+
     .account-dropdown {
       position: absolute;
       top: 100%;
@@ -54,12 +63,19 @@
       border-radius: 0 0 $radius $radius;
       min-width: 200px;
       z-index: 12;
-      box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.15), -1px 0px 4px rgba(0, 0, 0, 0.15);
+      box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.15), -1px 0 4px rgba(0, 0, 0, 0.15);
 
-      a {
-          font-size: 0.9em;
-          display: block;
-          padding: 10px;
+      span, a {
+        font-size: 0.9em;
+        display: block;
+        padding: 10px 20px;
+        border-bottom: solid 1px $grey-lighter;
+        color: $primary;
+      }
+
+      span {
+          cursor: default;
+          color: $grey-light;
       }
     }
   }

@@ -20,6 +20,8 @@
 </template>
 
 <script>
+import User from './models/user'
+
 export default {
   name: 'splash',
 
@@ -34,13 +36,23 @@ export default {
   methods: {
     signIn() {
       this.isProcessing = true;
-      
-      let user = {
-        name: "Kunal Varma",
-        uid: "123456789"
-      };
 
-      this.$bus.$emit("user-authenticated", user);
+      // Sign in Provider
+      var provider = new firebase.auth.GoogleAuthProvider();
+      // Authenticate
+      firebase.auth().signInWithPopup(provider).then((result) => {
+        // The signed-in user info
+        return result.user;
+      }).then((user) => {
+        // Model User Data
+        return User.createFromGoogleData(user);
+      }).then((user) => {
+        // User authenticated and modeled
+        // Now, emit.
+        this.$bus.$emit("user-authenticated", user);
+      }).catch((error) => {
+        console.log(error);
+      });
     }
   }
 

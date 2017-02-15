@@ -1,9 +1,11 @@
 <template lang="html">
     <div class="account-tab" @click="toggle">
+        <img :src="user.photoUrl" alt="user" />
         <span class="account-name">{{user.name}}</span>
         <span :class="{ 'fa icon': true, 'fa-chevron-down': !isOpen, 'fa-chevron-up': isOpen }"></span>
 
         <div class="account-dropdown" v-if="isOpen">
+            <span>{{user.email}}</span>
             <a @click="logout">Logout</a>
         </div>
     </div>
@@ -32,7 +34,14 @@ export default {
     },
 
     logout() {
-      this.$bus.$emit('user-logged-out', {});
+      // Log user out
+      firebase.auth().signOut().then(() => {
+        // User logged out
+        // Now, emit.
+        this.$bus.$emit('user-logged-out');
+      }, (error) => {
+        console.log(error);
+      });
     }
   }
 
