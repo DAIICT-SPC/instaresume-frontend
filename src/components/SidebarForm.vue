@@ -37,13 +37,7 @@ import AwardInfo from './form/AwardInfo'
 
 export default {
   name: 'sidebar-form',
-
-  data() {
-    return {
-
-    };
-  },
-
+  
   components: {
     Panel,
     PersonalInfo,

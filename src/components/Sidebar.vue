@@ -10,12 +10,6 @@ import SidebarForm from './SidebarForm'
 export default {
   name: 'sidebar',
 
-  data() {
-    return {
-
-    };
-  },
-
   components: {
     SidebarForm
   },

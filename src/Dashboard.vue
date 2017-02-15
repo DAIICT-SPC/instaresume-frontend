@@ -15,16 +15,8 @@ import studentData from './models/student';
 export default {
   name: 'dashboard',
 
-  created () {
-      // User Logged in
-      this.$bus.$on('user-authenticated', (user) => {
-          this.user = user;
-      });
-  },
-
   data() {
     return {
-      user: {},
       student: studentData
     }
   },
@@ -33,7 +25,16 @@ export default {
     Navbar,
     Sidebar,
     ResumeTemplate
+  },
+
+  props: {
+    user: {
+      required: true,
+      type: Object,
+      default: {}
+    }
   }
+
 }
 </script>
 

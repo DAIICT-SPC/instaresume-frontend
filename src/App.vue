@@ -1,6 +1,7 @@
 <template>
 <div id="app">
-  <component :is="currentView"></component>
+  <splash v-if="!userIsLoggedIn"></splash>
+  <dashboard :user="user" v-if="userIsLoggedIn"></dashboard>
 </div>
 </template>
 
@@ -11,30 +12,37 @@ import Dashboard from './Dashboard'
 export default {
   name: 'app',
 
-  created () {
+  created() {
     // User Logged in
     this.$bus.$on('user-authenticated', (user) => {
-        this.user = user;
-        this.currentView = Dashboard;
+      this.user = user;
     });
 
     // User Logged out
     this.$bus.$on('user-logged-out', () => {
-        this.currentView = Splash;
+      this.user = null;
     });
   },
 
-  data () {
+  data() {
     return {
-        currentView: Splash,
-        user: {}
+      user: null
     }
+  },
+
+  computed: {
+      userIsLoggedIn () {
+          return this.user !== null;
+      }
+  },
+
+  components: {
+      Splash,
+      Dashboard
   }
 }
 </script>
 
 <style lang="scss">
 // Import the application styling
-@import "./scss/app";
-
-</style>
+@import "./scss/app";</style>
