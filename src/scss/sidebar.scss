@@ -17,17 +17,11 @@
             float: right;
             margin: ($sidebar-padding/2) + 2;
             color: $grey;
-            border: none;
-            border-radius: $radius;
-            transition: all 0.3s ease-in-out;
             padding-right: 30px;
             padding-left: 30px;
-            box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15);
 
             &:hover {
-                color: $grey-dark;
-                box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
-                transform: scale(1.02);
+                color: $grey-dark;                
             }
         }
     }

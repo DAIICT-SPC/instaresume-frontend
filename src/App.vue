@@ -1,27 +1,26 @@
 <template>
 <div id="app">
-  <sidebar :student="student"></sidebar>
-  <resume-template :student="student"></resume-template>
+  <component :is="currentView"></component>
 </div>
 </template>
 
 <script>
-import Sidebar from './components/Sidebar'
-import ResumeTemplate from './components/ResumeTemplate'
-import studentData from './models/student';
+import Splash from './Splash'
+import Dashboard from './Dashboard'
 
 export default {
   name: 'app',
 
-  data () {
-    return {
-        student: studentData
-    }
+  created () {
+    this.$bus.$on('user-authenticated', (user) => {
+        this.currentView = Dashboard;
+    })
   },
 
-  components: {
-    Sidebar,
-    ResumeTemplate
+  data () {
+    return {
+        currentView: Splash
+    }
   }
 }
 </script>
