@@ -1,0 +1,437 @@
+<svg width="519" height="579" viewBox="0 0 519 579" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Resume</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-120 257)" figma:type="canvas">
+<g id="Resume" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Rectangle 5" style="mix-blend-mode:normal;" filter="url(#filter0_d)" figma:type="rounded-rectangle">
+<use xlink:href="#path0_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 347.5 -228)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse" style="mix-blend-mode:normal;" filter="url(#filter1_d)" figma:type="ellipse">
+<use xlink:href="#path1_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 353.151 -187.787)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path2_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 414.727 -116.44)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path3_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 424.727 -133.761)" fill="#B6C4D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 404.727 -99.1199)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path5_fill" transform="matrix(0.866025 0.5 0.5 -0.866025 292.651 -82.9981)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path3_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 301.151 -97.7206)" fill="#B6C4D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 287.651 -74.3379)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path6_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 339.612 -44.3379)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 443.535 15.6621)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 491.167 43.1621)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 279.151 -59.6154)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path8_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 331.112 -29.6154)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 435.035 30.3846)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 482.667 57.8846)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 273.151 -49.2231)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path8_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 325.112 -19.2231)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 429.035 40.7769)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 476.667 68.2769)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 267.151 -38.8308)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path8_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 319.112 -8.83082)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 423.035 51.1692)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 470.667 78.6692)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path5_fill" transform="matrix(0.866025 0.5 0.5 -0.866025 242.651 3.60442)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path3_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 251.151 -11.118)" fill="#B6C4D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 237.651 12.2647)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path9_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 289.612 42.2647)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 393.535 102.265)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 441.167 129.765)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 229.151 26.9871)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path10_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 281.112 56.9871)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 385.035 116.987)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 432.667 144.487)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 223.151 37.3794)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path10_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 275.112 67.3794)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 379.035 127.379)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 426.667 154.879)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 217.151 47.7717)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path10_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 269.112 77.7717)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 373.035 137.772)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 420.667 165.272)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path5_fill" transform="matrix(0.866025 0.5 0.5 -0.866025 192.651 90.207)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path3_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 201.151 75.4845)" fill="#B6C4D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 187.651 98.8672)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path6_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 239.612 128.867)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path11_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 343.535 188.867)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 179.151 113.59)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path8_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 231.112 143.59)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path12_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 335.035 203.59)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 382.667 231.09)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 173.151 123.982)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path8_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 225.112 153.982)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path12_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 329.035 213.982)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 376.667 241.482)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 167.151 134.374)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path8_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 219.112 164.374)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path12_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 323.035 224.374)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 370.667 251.874)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 531.167 -26.1199)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Rectangle 5" style="mix-blend-mode:normal;" filter="url(#filter2_d)" figma:type="rounded-rectangle">
+<use xlink:href="#path0_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 337.5 -258)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse" style="mix-blend-mode:normal;" filter="url(#filter3_d)" figma:type="ellipse">
+<use xlink:href="#path1_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 343.151 -217.787)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path2_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 404.727 -146.44)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path3_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 414.727 -163.761)" fill="#B6C4D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 394.727 -129.12)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path5_fill" transform="matrix(0.866025 0.5 0.5 -0.866025 282.651 -112.998)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path3_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 291.151 -127.721)" fill="#B6C4D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 277.651 -104.338)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path6_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 329.612 -74.3379)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 433.535 -14.3379)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 481.167 13.1621)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 269.151 -89.6154)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path8_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 321.112 -59.6154)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 425.035 0.384567)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 472.667 27.8846)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 263.151 -79.2231)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path8_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 315.112 -49.2231)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 419.035 10.7769)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 466.667 38.2769)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 257.151 -68.8308)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path8_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 309.112 -38.8308)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 413.035 21.1692)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 460.667 48.6692)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path5_fill" transform="matrix(0.866025 0.5 0.5 -0.866025 232.651 -26.3956)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path3_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 241.151 -41.118)" fill="#B6C4D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 227.651 -17.7353)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path9_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 279.612 12.2647)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 383.535 72.2647)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 431.167 99.7647)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 219.151 -3.01289)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path10_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 271.112 26.9871)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 375.035 86.9871)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 422.667 114.487)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 213.151 7.37941)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path10_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 265.112 37.3794)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 369.035 97.3794)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 416.667 124.879)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 207.151 17.7717)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path10_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 259.112 47.7717)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 363.035 107.772)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 410.667 135.272)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path5_fill" transform="matrix(0.866025 0.5 0.5 -0.866025 182.651 60.207)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path3_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 191.151 45.4845)" fill="#B6C4D6" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 177.651 68.8672)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path6_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 229.612 98.8672)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path11_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 333.535 158.867)" fill="#CFDBEB" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 169.151 83.5896)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path8_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 221.112 113.59)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path12_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 325.035 173.59)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 372.667 201.09)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 163.151 93.9819)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path8_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 215.112 123.982)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path12_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 319.035 183.982)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 366.667 211.482)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 157.151 104.374)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path8_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 209.112 134.374)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path12_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 313.035 194.374)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path7_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 360.667 221.874)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Rectangle 6" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path4_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 521.167 -56.1199)" fill="#EAEFF5" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="129" y="-228" width="510" height="550" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<desc>type="dropShadow" x="4" y="4" size="4" spread="0" color="0,0,0,0.1" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="4" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_d" filterUnits="userSpaceOnUse" x="317" y="-188" width="106" height="106" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<desc>type="dropShadow" x="4" y="4" size="4" spread="0" color="0,0,0,0.1" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="4" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter2_d" filterUnits="userSpaceOnUse" x="120" y="-257" width="508" height="548" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<desc>type="dropShadow" x="4" y="4" size="4" spread="0" color="0,0,0,0.1" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="4" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter3_d" filterUnits="userSpaceOnUse" x="307" y="-218" width="106" height="106" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<desc>type="dropShadow" x="4" y="4" size="4" spread="0" color="0,0,0,0.1" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="4" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 0 4C 0 1.79086 1.79086 0 4 0L 323 0C 325.209 0 327 1.79086 327 4L 327 433C 327 435.209 325.209 437 323 437L 4 437C 1.79086 437 0 435.209 0 433L 0 4Z"/>
+<path id="path1_fill" d="M 71 35.5C 71 55.1061 55.1061 71 35.5 71C 15.8939 71 0 55.1061 0 35.5C 0 15.8939 15.8939 0 35.5 0C 55.1061 0 71 15.8939 71 35.5Z"/>
+<path id="path2_fill" d="M 0 4C 0 1.79086 1.79086 0 4 0L 182 0C 184.209 0 186 1.79086 186 4L 186 4C 186 6.20914 184.209 8 182 8L 4 8C 1.79086 8 0 6.20914 0 4L 0 4Z"/>
+<path id="path3_fill" d="M 0 4C 0 1.79086 1.79086 0 4 0L 44 0C 46.2091 0 48 1.79086 48 4L 48 4C 48 6.20914 46.2091 8 44 8L 4 8C 1.79086 8 0 6.20914 0 4L 0 4Z"/>
+<path id="path4_fill" d="M 0 4C 0 1.79086 1.79086 0 4 0L 36 0C 38.2091 0 40 1.79086 40 4L 40 4C 40 6.20914 38.2091 8 36 8L 4 8C 1.79086 8 0 6.20914 0 4L 0 4Z"/>
+<path id="path5_fill" d="M 0 0L 275 0L 275 1L 0 1L 0 0Z"/>
+<path id="path6_fill" d="M 0 4C 0 1.79086 1.79086 0 4 0L 99 0C 101.209 0 103 1.79086 103 4L 103 4C 103 6.20914 101.209 8 99 8L 4 8C 1.79086 8 0 6.20914 0 4L 0 4Z"/>
+<path id="path7_fill" d="M 0 2.5C 0 1.11929 1.11929 0 2.5 0L 37.5 0C 38.8807 0 40 1.11929 40 2.5L 40 2.5C 40 3.88071 38.8807 5 37.5 5L 2.5 5C 1.11929 5 0 3.88071 0 2.5L 0 2.5Z"/>
+<path id="path8_fill" d="M 0 2.5C 0 1.11929 1.11929 0 2.5 0L 100.5 0C 101.881 0 103 1.11929 103 2.5L 103 2.5C 103 3.88071 101.881 5 100.5 5L 2.5 5C 1.11929 5 0 3.88071 0 2.5L 0 2.5Z"/>
+<path id="path9_fill" d="M 0 4C 0 1.79086 1.79086 0 4 0L 116 0C 118.209 0 120 1.79086 120 4L 120 4C 120 6.20914 118.209 8 116 8L 4 8C 1.79086 8 0 6.20914 0 4L 0 4Z"/>
+<path id="path10_fill" d="M 0 2.5C 0 1.11929 1.11929 0 2.5 0L 117.5 0C 118.881 0 120 1.11929 120 2.5L 120 2.5C 120 3.88071 118.881 5 117.5 5L 2.5 5C 1.11929 5 0 3.88071 0 2.5L 0 2.5Z"/>
+<path id="path11_fill" d="M 0 4C 0 1.79086 1.79086 0 4 0L 91 0C 93.2091 0 95 1.79086 95 4L 95 4C 95 6.20914 93.2091 8 91 8L 4 8C 1.79086 8 0 6.20914 0 4L 0 4Z"/>
+<path id="path12_fill" d="M 0 2.5C 0 1.11929 1.11929 0 2.5 0L 52.5 0C 53.8807 0 55 1.11929 55 2.5L 55 2.5C 55 3.88071 53.8807 5 52.5 5L 2.5 5C 1.11929 5 0 3.88071 0 2.5L 0 2.5Z"/>
+</defs>
+</svg>

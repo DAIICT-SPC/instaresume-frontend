@@ -1,0 +1,95 @@
+@keyframes fly {
+  0% {
+    transform: translateY(0%) rotate3d(9, -9, 0, 30deg);
+  }
+
+  ,
+  100% {
+    transform: translateY(-5%) rotate3d(9, -9, 0, 30deg);
+  }
+}
+
+.splash {
+  position: relative;
+  height: 100%;
+  background: $primary;
+  background-image: -webkit-gradient( linear, right top, left top, color-stop(0.5, #6A8FF7), color-stop(1, $primary) );
+  background-image: -webkit-linear-gradient(left, #6A8FF7 40%, $primary 100%);
+  background-image: linear-gradient(to left, #6A8FF7 40%, $primary 100%);
+
+  .intro {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 80%;
+    margin: auto;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .logo {
+    font-family: $family-serif;
+    display: inline-block;
+
+    img {
+      width: 40px;
+      vertical-align: baseline;
+    }
+
+    span {
+      color: $white;
+      font-size: 3em;
+      vertical-align: baseline;
+      margin-left: 5px;
+    }
+  }
+  // .tagline {
+  //   font-family: $family-serif;
+  //   font-size: 1.8em;
+  //   color: darken($primary, 25%);
+  // }
+  p {
+    margin: 20px 0;
+  }
+
+  .signin-button {
+    border-radius: $radius;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 12px 20px;
+    color: $primary;
+
+    .icon {
+      vertical-align: middle;
+      margin-top: -2px;
+      border-right: solid 1px $grey-lighter;
+      padding-right: 5px;
+      min-width: 40px;
+      color: $grey;
+    }
+  }
+
+  .illustration {
+    display: none;
+    position: fixed;
+    right: 10%;
+    top: 50%;
+    margin-top: -250px;
+    animation-name: fly;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 0;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    z-index: 1;
+  }
+}
+
+@media only screen and (min-device-width : 900px) {
+  .splash {
+    .illustration {
+      display: block;
+    }
+  }
+}
