@@ -62,10 +62,15 @@
     .icon {
       vertical-align: middle;
       margin-top: -2px;
-      border-right: solid 1px $grey-lighter;
-      padding-right: 5px;
-      min-width: 40px;
+      padding-right: 0px;
+      min-width: 20px;
+      margin-right: 0;
       color: $grey;
+    }
+
+    .button-label {
+        border-left: solid 1px $grey-lighter;
+        padding-left: 15px;
     }
   }
 

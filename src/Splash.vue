@@ -9,7 +9,10 @@
               {{tagline}}
           </p> -->
           <p>
-              <a class="button is-lighter is-large signin-button" type="button" @click="signIn"> <span class="fa icon fa-google"></span> Sign in with Google</a>
+              <a class="button is-lighter is-large signin-button" type="button" @click="signIn">
+                  <span :class="{'fa icon': true, 'fa-google': !isProcessing, 'fa-spinner fa-pulse fa-fw': isProcessing}"></span>
+                  <span class="button-label">Sign in with Google</span>
+              </a>
           </p>
       </div>
       <img src="./assets/resume.svg" alt="InstaResume" class="illustration">
@@ -23,13 +26,20 @@ export default {
   data() {
     return {
       title: "InstaResume",
-      tagline: "Instant resume generator."
+      tagline: "Instant resume generator.",
+      isProcessing: false
     };
   },
 
   methods: {
     signIn() {
-      let user = { name: "Kunal Varma", uid: "123456789" };
+      this.isProcessing = true;
+      
+      let user = {
+        name: "Kunal Varma",
+        uid: "123456789"
+      };
+
       this.$bus.$emit("user-authenticated", user);
     }
   }
