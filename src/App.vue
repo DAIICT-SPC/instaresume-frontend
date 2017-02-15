@@ -12,14 +12,22 @@ export default {
   name: 'app',
 
   created () {
+    // User Logged in
     this.$bus.$on('user-authenticated', (user) => {
+        this.user = user;
         this.currentView = Dashboard;
-    })
+    });
+
+    // User Logged out
+    this.$bus.$on('user-logged-out', () => {
+        this.currentView = Splash;
+    });
   },
 
   data () {
     return {
-        currentView: Splash
+        currentView: Splash,
+        user: {}
     }
   }
 }

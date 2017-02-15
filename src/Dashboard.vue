@@ -1,11 +1,13 @@
 <template>
 <div id="dashboard">
+  <navbar :user="user"></navbar>
   <sidebar :student="student"></sidebar>
   <resume-template :student="student"></resume-template>
 </div>
 </template>
 
 <script>
+import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import ResumeTemplate from './components/ResumeTemplate'
 import studentData from './models/student';
@@ -13,13 +15,22 @@ import studentData from './models/student';
 export default {
   name: 'dashboard',
 
-  data () {
+  created () {
+      // User Logged in
+      this.$bus.$on('user-authenticated', (user) => {
+          this.user = user;
+      });
+  },
+
+  data() {
     return {
-        student: studentData
+      user: {},
+      student: studentData
     }
   },
 
   components: {
+    Navbar,
     Sidebar,
     ResumeTemplate
   }
@@ -28,6 +39,4 @@ export default {
 
 <style lang="scss">
 // Import the application styling
-@import "./scss/app";
-
-</style>
+@import "./scss/app";</style>

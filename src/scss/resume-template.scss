@@ -1,9 +1,11 @@
+@import "./variables";
+
 .resume-render-wrapper {
   padding: 20px;
   position: fixed;
   left: 450px;
   right: 0;
-  top: 0;
+  top: $navbar-height;
   bottom: 0;
   overflow-x: hidden;
   overflow-y: auto;

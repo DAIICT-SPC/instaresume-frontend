@@ -29,7 +29,7 @@ export default {
 
   methods: {
     signIn() {
-      const user = {};
+      let user = { name: "Kunal" };
       this.$bus.$emit("user-authenticated", user);
     }
   }

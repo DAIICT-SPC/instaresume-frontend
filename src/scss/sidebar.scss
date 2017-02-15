@@ -2,46 +2,11 @@
     background: $sidebar-background;
     position: fixed;
     left: 0;
-    top: 0;
+    top: $navbar-height;
     bottom: 0;
     max-width: $sidebar-width;
     width: 100%;
     color: $sidebar-color;
     overflow-y: auto;
-    box-shadow: 5px 0 10px rgba(0,0,0,0.05);
-
-    .logo-wrapper {
-        background: $primary;
-
-        .button {
-            float: right;
-            margin: ($sidebar-padding/2) + 2;
-            color: $grey;
-            padding-right: 30px;
-            padding-left: 30px;
-
-            &:hover {
-                color: $grey-dark;                
-            }
-        }
-    }
-
-    .logo {
-        // text-align: center;
-        // font-family: $family-serif;
-        display: inline-block;
-        padding: $sidebar-padding;
-
-        img {
-            width: 20px;
-            vertical-align: middle;
-        }
-
-        // span {
-        //     color: $white;
-        //     font-size: 1.8em;
-        //     vertical-align: baseline;
-        //     margin-left: 5px;
-        // }
-    }
+    box-shadow: 5px 0 10px rgba(0,0,0,0.05);    
 }
