@@ -1,14 +1,17 @@
 <template lang="html">
     <div class="navbar">
+        <account-tab :user="user"></account-tab>
+
         <a href="index.html" class="logo">
             <img src="../assets/logo.svg" :alt="title" />
         </a>
-        <b>{{user.name}}</b>
+
         <generate-button></generate-button>
     </div>
 </template>
 
 <script>
+import AccountTab from './AccountTab'
 import GenerateButton from './GenerateButton'
 
 export default {
@@ -28,7 +31,8 @@ export default {
     },
 
     components: {
-        GenerateButton
+        GenerateButton,
+        AccountTab
     }
 }
 </script>
