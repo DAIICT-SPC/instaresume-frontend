@@ -42,7 +42,7 @@ export default {
   },
 
   methods: {
-    generateResume() {      
+    generateResume() {
       const bus = this.$bus;
 
       window.axios.post('/generate', this.user)
