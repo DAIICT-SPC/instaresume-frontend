@@ -8,20 +8,20 @@
                     </td>
 
                     <td class="intro w-80">
-                        <h1>{{student.info.name}}</h1>
+                        <h1>{{resume.info.name}}</h1>
                         <p>
                             <b>Dhirubhai Ambani Institute of Information and Communication Technology</b>
                         </p>
                         <p>
                             <span class="w-60 inline-block">
-                                <b>Email:</b> {{student.info.email}}
+                                <b>Email:</b> {{resume.info.email}}
                             </span>
                             <span class="w-40 text-right">
-                                <b>DOB:</b> {{student.info.dob}}
+                                <b>DOB:</b> {{resume.info.dob}}
                             </span>
                         </p>
                         <p>
-                            <b>Address:</b> {{student.info.address}}
+                            <b>Address:</b> {{resume.info.address}}
                         </p>
                     </td>
 
@@ -42,7 +42,7 @@
                     <th colspan="1">CPI/Aggregate</th>
                 </tr>
 
-                <tr v-for="(degree, index) in student.degrees">
+                <tr v-for="(degree, index) in resume.degrees">
                     <td>
                         <b>{{degree.name}}</b>
                     </td>
@@ -70,7 +70,7 @@
                             Interest</b>
                     </td>
                     <td class="w-70">
-                        {{student.skill.expertise}}
+                        {{resume.skill.expertise}}
                     </td>
                 </tr>
                 <tr>
@@ -78,7 +78,7 @@
                         <b>Programming Language(s)</b>
                     </td>
                     <td class="w-70">
-                        {{student.skill.programming_languages}}
+                        {{resume.skill.programming_languages}}
                     </td>
                 </tr>
                 <tr>
@@ -87,7 +87,7 @@
                             Technologies</b>
                     </td>
                     <td class="w-70">
-                        {{student.skill.tools}}
+                        {{resume.skill.tools}}
                     </td>
                 </tr>
             </table>
@@ -99,7 +99,7 @@
                     </td>
                 </tr>
 
-                <tr v-for="(project, index) in student.projects">
+                <tr v-for="(project, index) in resume.projects">
                     <td class="w-80" valign="top">
                         <p>
                             <b>{{project.name}}</b>
@@ -123,7 +123,7 @@
                 <tr>
                     <td valign="top">
                         <ul class="list">
-                                <li v-for="(award, index) in student.awards">
+                                <li v-for="(award, index) in resume.awards">
                                     {{award.name}}
                                 </li>
                         </ul>
@@ -140,7 +140,7 @@
                 <tr>
                     <td valign="top">
                         <ul class="list">
-                            <li v-for="(hobby, index) in student.hobbies">
+                            <li v-for="(hobby, index) in resume.hobbies">
                                 {{hobby.name}}
                             </li>
                         </ul>
@@ -157,7 +157,7 @@ export default {
     return {}
   },
   props: {
-    student: {
+    resume: {
       required: true,
       type: Object
     }

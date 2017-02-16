@@ -1,8 +1,8 @@
 <template>
 <div id="dashboard">
   <navbar :user="user"></navbar>
-  <sidebar :student="student"></sidebar>
-  <resume-template :student="student"></resume-template>
+  <sidebar :resume="resume"></sidebar>
+  <resume-template :resume="resume"></resume-template>
 </div>
 </template>
 
@@ -10,7 +10,7 @@
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import ResumeTemplate from './components/ResumeTemplate'
-import studentData from './models/student'
+import resumeData from './models/resume'
 
 export default {
   name: 'dashboard',
@@ -23,7 +23,7 @@ export default {
 
   data() {
     return {
-      student: studentData
+      resume: resumeData
     }
   },
 

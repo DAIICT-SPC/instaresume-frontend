@@ -1,27 +1,27 @@
 <template lang="html">
     <form class="sidebar-form">
         <panel group="sidebar-panel" id="personal-info" title="Personal Info" :isOpen="false" >
-            <personal-info :info="student.info"></personal-info>
+            <personal-info :info="resume.info"></personal-info>
         </panel>
 
         <panel group="sidebar-panel" id="education-info" title="Education" >
-            <education-info :degrees="student.degrees"></education-info>
+            <education-info :degrees="resume.degrees"></education-info>
         </panel>
 
         <panel group="sidebar-panel" id="skill-info" title="Skills" >
-            <skill-info :skill="student.skill"></skill-info>
+            <skill-info :skill="resume.skill"></skill-info>
         </panel>
 
         <panel group="sidebar-panel" id="project-info" title="Projects" >
-            <project-info :projects="student.projects"></project-info>
+            <project-info :projects="resume.projects"></project-info>
         </panel>
 
         <panel group="sidebar-panel" id="award-info" title="Awards and Achievements" >
-            <award-info :awards="student.awards"></award-info>
+            <award-info :awards="resume.awards"></award-info>
         </panel>
 
         <panel group="sidebar-panel" id="hobby-info" title="Interests and Hobbies" >
-            <hobby-info :hobbies="student.hobbies"></hobby-info>
+            <hobby-info :hobbies="resume.hobbies"></hobby-info>
         </panel>
     </form>
 </template>
@@ -49,7 +49,7 @@ export default {
   },
 
   props: {
-    student: {
+    resume: {
       required: true,
       type: Object
     }

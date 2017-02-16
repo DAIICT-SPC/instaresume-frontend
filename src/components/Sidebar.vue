@@ -1,6 +1,6 @@
 <template lang="html">
     <div class="sidebar">
-        <sidebar-form :student="student"></sidebar-form>
+        <sidebar-form :resume="resume"></sidebar-form>
     </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
   },
 
   props: {
-    student: {
+    resume: {
       required: true,
       type: Object
     }
