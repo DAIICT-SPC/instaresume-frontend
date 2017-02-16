@@ -1,8 +1,14 @@
 import Vue from 'vue'
+import axios from 'axios'
 import App from './App'
 
 // Create a global Event Bus
 var EventBus = new Vue();
+
+// Make Axios globally available
+window.axios = axios.create({
+  baseURL: 'http://identity.app/api'
+});;
 
 // Add to Vue properties by exposing a getter for $bus
 Object.defineProperties(Vue.prototype, {

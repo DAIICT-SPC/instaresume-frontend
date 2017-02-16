@@ -10,10 +10,16 @@
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import ResumeTemplate from './components/ResumeTemplate'
-import studentData from './models/student';
+import studentData from './models/student'
 
 export default {
   name: 'dashboard',
+
+  created() {
+    this.$bus.$on('generate-resume', () => {
+      this.generateResume();
+    });
+  },
 
   data() {
     return {
@@ -32,6 +38,20 @@ export default {
       required: true,
       type: Object,
       default: {}
+    }
+  },
+
+  methods: {
+    generateResume() {      
+      const bus = this.$bus;
+
+      window.axios.post('/generate', this.user)
+        .then((response) => {
+          bus.$emit('resume-generated', response.data);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
     }
   }
 

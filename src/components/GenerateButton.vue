@@ -7,18 +7,26 @@
 
 <script>
 export default {
-    name: "generate-button",
+  name: "generate-button",
 
-    data () {
-        return {
-            isProcessing: false
-        }
-    },
+  created() {
+    this.$bus.$on('resume-generated', (data) => {
+      this.isProcessing = false;
+    });
+  },
 
-    methods: {
-        generateResume () {
-            this.isProcessing = true;
-        }
+  data() {
+    return {
+      isProcessing: false
     }
+  },
+
+  methods: {
+    generateResume() {
+      this.isProcessing = true;
+
+      this.$bus.$emit("generate-resume");
+    }
+  }
 }
 </script>
