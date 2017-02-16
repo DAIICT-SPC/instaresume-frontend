@@ -1,6 +1,6 @@
 <template lang="html">
     <div class="form project-form">
-        <panel :title="title">
+        <panel :title="title" :id="'project-' + id" :group="'resume-projects'">
             <div class="form-input">
                 <label class="label">Project Name</label>
                 <p class="control">

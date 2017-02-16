@@ -1,6 +1,6 @@
 <template lang="html">
     <div class="form degree-form">
-        <panel :title="title">
+        <panel :title="title" :id="'degree-' + id" :group="'resume-degrees'">
             <div class="form-input">
                 <label class="label">Degree Name</label>
                 <p class="control">
