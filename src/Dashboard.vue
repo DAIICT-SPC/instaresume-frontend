@@ -12,13 +12,19 @@ import Sidebar from './components/Sidebar'
 import ResumeTemplate from './components/ResumeTemplate'
 import resumeData from './models/resume'
 import userData from './models/user'
+import Database from './service/database'
 
 export default {
   name: 'dashboard',
 
   created() {
     this.$bus.$on('generate-resume', () => {
-      this.generateResume();
+      this.syncResumeData(this.generateResume);
+    });
+
+    // Fetch resume from firebase
+    Database.resumes.get(this.user.id, (resume) => {
+        this.resume = resume;
     });
   },
 
@@ -43,10 +49,15 @@ export default {
   },
 
   methods: {
-    generateResume() {
+    syncResumeData(fn) {
+      // Sync resume data
+      // then generate it.
+      Database.resumes.create(this.user.id, this.resume, fn);
+    },
+    generateResume(resume) {
       const bus = this.$bus;
 
-      window.axios.post('/generate', this.user)
+      window.axios.post('/generate', resume)
         .then((response) => {
           bus.$emit('resume-generated', response.data);
         })

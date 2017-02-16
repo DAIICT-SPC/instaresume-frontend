@@ -9,8 +9,15 @@ export default {
   },
 
   resumes: {
-    create(user_id, resume) {
-      return firebaseDB.ref('resumes/' + user_id).set(resume);
+    get(user_id, fn) {
+      return firebaseDB.ref('resumes/' + user_id).once('value').then(function(snapshot) {
+        let resume = JSON.parse(snapshot.val());
+        fn(resume);
+      });
+    },
+    create(user_id, resume, fn) {
+      let resumeString = JSON.stringify(resume);
+      return firebaseDB.ref('resumes/' + user_id).set(resumeString).then(fn(resume));
     }
   }
 
