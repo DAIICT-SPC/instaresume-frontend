@@ -21,6 +21,8 @@
 
 <script>
 import User from './models/user'
+import Utils from './utils'
+import Database from './service/database'
 
 export default {
   name: 'splash',
@@ -45,11 +47,15 @@ export default {
         return result.user;
       }).then((user) => {
         // Model User Data
-        return User.fromGoogleData(user);
+        return Utils.createUserFromGoogleData(user);
       }).then((user) => {
-        // User authenticated and modeled
-        // Now, emit.
-        this.$bus.$emit("user-authenticated", user);
+        // Save user to the Database
+        // and log in the user
+        Database.users.create(user, (authUser) => {
+          // User authenticated and modeled
+          // Now, emit.
+          this.$bus.$emit("user-authenticated", authUser);
+        });
       }).catch((error) => {
         console.log(error);
       });

@@ -11,6 +11,7 @@ import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import ResumeTemplate from './components/ResumeTemplate'
 import resumeData from './models/resume'
+import userData from './models/user'
 
 export default {
   name: 'dashboard',
@@ -37,7 +38,7 @@ export default {
     user: {
       required: true,
       type: Object,
-      default: {}
+      default: userData
     }
   },
 

@@ -31,14 +31,14 @@ export default {
   },
 
   computed: {
-      userIsLoggedIn () {
-          return this.user !== null;
-      }
+    userIsLoggedIn() {
+      return this.user !== null;
+    }
   },
 
   components: {
-      Splash,
-      Dashboard
+    Splash,
+    Dashboard
   }
 }
 </script>
