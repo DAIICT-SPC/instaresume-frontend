@@ -13,6 +13,7 @@ import ResumeTemplate from './components/ResumeTemplate'
 import resumeData from './models/resume'
 import userData from './models/user'
 import Database from './service/database'
+import Utils from './utils'
 
 export default {
   name: 'dashboard',
@@ -24,7 +25,7 @@ export default {
 
     // Fetch resume from firebase
     Database.resumes.get(this.user.id, (resume) => {
-        this.resume = resume;
+      this.resume = resume;
     });
   },
 
@@ -56,10 +57,21 @@ export default {
     },
     generateResume(resume) {
       const bus = this.$bus;
+      const userData = this.user;
+      const userID = userData.id;
 
-      window.axios.post('/generate', resume)
+      window.axios.post('/generate', {
+          resume: resume,
+          user_id: userID
+        })
         .then((response) => {
-          bus.$emit('resume-generated', response.data);
+          const data = response.data;
+          bus.$emit('resume-generated', data);
+
+          return data;
+        })
+        .then((data) => {
+            Utils.downloadFile(data.url, "Resume-" + userData.name);
         })
         .catch((error) => {
           console.log(error);
