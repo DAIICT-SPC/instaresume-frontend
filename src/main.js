@@ -1,3 +1,4 @@
+import Config from './config'
 import Vue from 'vue'
 import axios from 'axios'
 import App from './App'
@@ -7,7 +8,7 @@ var EventBus = new Vue();
 
 // Make Axios globally available
 window.axios = axios.create({
-  baseURL: 'http://identity.app/api'
+  baseURL: Config.get('apiUrl')
 });
 
 window.directDownloadFile = {};
