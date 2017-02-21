@@ -8,7 +8,10 @@ var EventBus = new Vue();
 
 // Make Axios globally available
 window.axios = axios.create({
-  baseURL: Config.get('apiUrl')
+  baseURL: Config.get('apiUrl'),
+  params: {
+      token: Config.get('token')
+  }
 });
 
 window.directDownloadFile = {};
