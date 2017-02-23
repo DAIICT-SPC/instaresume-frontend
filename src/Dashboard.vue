@@ -25,7 +25,9 @@ export default {
 
     // Fetch resume from firebase
     Database.resumes.get(this.user.id, (resume) => {
-      this.resume = resume;
+      if (resume) {
+          this.resume = resume;
+      }
     });
   },
 
