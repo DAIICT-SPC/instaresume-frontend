@@ -1,6 +1,7 @@
 <template lang="html">
     <button class="generate-button button is-lighter is-medium" type="button" @click="generateResume">
-        <span v-show="!isProcessing">Download PDF</span>
+        <span class="button-text" v-show="!isProcessing">Download PDF</span>
+        <span v-show="!isProcessing" class="button-icon fa fa-cloud-download"></span>
         <span v-show="isProcessing" class="fa fa-spinner fa-pulse fa-fw"></span>
     </button>
 </template>

@@ -3,12 +3,13 @@
 .resume-render-wrapper {
   padding: 20px;
   position: fixed;
-  left: 450px;
+  left: $sidebar-width;
   right: 0;
   top: $navbar-height;
   bottom: 0;
   overflow-x: hidden;
   overflow-y: auto;
+  display: none;
 
   * {
     font-size: 14px;
@@ -124,4 +125,10 @@
   .list li {
     margin-bottom: 10px;
   }
+}
+
+@media only screen and (min-device-width : 1000px) {
+    .resume-render-wrapper {
+        display: block;
+    }
 }
