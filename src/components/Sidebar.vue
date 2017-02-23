@@ -1,6 +1,9 @@
 <template lang="html">
     <div class="sidebar">
         <sidebar-form :resume="resume"></sidebar-form>
+        <a href="https://github.com/DAIICT-SPC" class="sidebar-footer">
+            View on GitHub
+        </a>
     </div>
 </template>
 
