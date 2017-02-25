@@ -37,3 +37,20 @@ html, body {
 #app {
     height: 100%;
 }
+
+.error {
+    display: block;
+    background: #fff;
+    border: solid 2px $red;
+    border-radius: 2px;
+    color: $red;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    max-width: 300px;
+    width: 100%;
+    margin-left: -150px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1), -5px -5px 10px rgba(0,0,0,0.1);
+}

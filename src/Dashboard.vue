@@ -3,6 +3,9 @@
   <navbar :user="user"></navbar>
   <sidebar :resume="resume"></sidebar>
   <resume-template :resume="resume"></resume-template>
+  <div class="error" v-if="error" @click="error = false">
+    All fields are mandatory.
+  </div>
 </div>
 </template>
 
@@ -23,6 +26,14 @@ export default {
       this.syncResumeData(this.generateResume);
     });
 
+    this.$bus.$on('generate-resume-error', (errors) => {
+      this.errors = errors;
+      this.error = true;
+      setTimeout(() => {
+        this.error = false;
+      }, 6000);
+    });
+
     // Fetch resume from firebase
     Database.resumes.get(this.user.id, (resume) => {
       if (resume) {
@@ -33,7 +44,9 @@ export default {
 
   data() {
     return {
-      resume: resumeData
+      resume: resumeData,
+      error: false,
+      errors: {}
     }
   },
 
