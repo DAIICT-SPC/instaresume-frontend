@@ -14,6 +14,10 @@ export default {
     this.$bus.$on('resume-generated', (data) => {
       this.isProcessing = false;
     });
+
+    this.$bus.$on("generate-resume-error", (errors) => {
+      this.isProcessing = false;
+    });
   },
 
   data() {

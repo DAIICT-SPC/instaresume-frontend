@@ -26,7 +26,7 @@ export default {
     // Fetch resume from firebase
     Database.resumes.get(this.user.id, (resume) => {
       if (resume) {
-          this.resume = resume;
+        this.resume = resume;
       }
     });
   },
@@ -73,10 +73,10 @@ export default {
           return data;
         })
         .then((data) => {
-            Utils.downloadFile(data.url, "Resume-" + userData.name);
+          Utils.downloadFile(data.url, "Resume-" + userData.name);
         })
         .catch((error) => {
-          console.log(error);
+          bus.$emit("generate-resume-error", error.response.data);
         });
     }
   }
