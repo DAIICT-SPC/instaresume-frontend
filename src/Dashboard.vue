@@ -4,7 +4,7 @@
   <sidebar :resume="resume"></sidebar>
   <resume-template :resume="resume"></resume-template>
   <div class="error" v-if="error" @click="error = false">
-    All fields are mandatory.
+      Something went wrong. Please try again!
   </div>
 </div>
 </template>

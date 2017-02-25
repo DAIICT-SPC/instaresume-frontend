@@ -18,11 +18,11 @@
   }
 
   .resume-template {
-      font-family: "Calibri", sans-serif;
-      font-size: 12px;
-      line-height: 1.5;
-      background: #fff;
-      padding: 40px;
+    font-family: "Calibri", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    background: #fff;
+    padding: 40px;
   }
 
   .main img {
@@ -123,12 +123,12 @@
   }
 
   .list li {
+    list-style-type: disc;
     margin-bottom: 10px;
   }
 }
-
 @media only screen and (min-device-width : 1000px) {
-    .resume-render-wrapper {
-        display: block;
-    }
+  .resume-render-wrapper {
+    display: block;
+  }
 }
