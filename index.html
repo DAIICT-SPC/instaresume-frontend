@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>InstaResume</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div id="app"></div>
 
-    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase-database.js"></script>
-    <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyDzZ_jA8jPDvtsyWxjffMYDsNQKQqkP5nA",
-        authDomain: "instaresume-49869.firebaseapp.com",
-        databaseURL: "https://instaresume-49869.firebaseio.com",
-        storageBucket: "instaresume-49869.appspot.com",
-        messagingSenderId: "548895619638"
-      };
-      firebase.initializeApp(config);
-    </script>
-    <!-- built files will be auto injected -->
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>InstaResume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase-database.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDzZ_jA8jPDvtsyWxjffMYDsNQKQqkP5nA",
+      authDomain: "instaresume-49869.firebaseapp.com",
+      databaseURL: "https://instaresume-49869.firebaseio.com",
+      storageBucket: "instaresume-49869.appspot.com",
+      messagingSenderId: "548895619638"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script>
+    // Google analytics
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  </script>
+  <!-- built files will be auto injected -->
+</body>
+
 </html>

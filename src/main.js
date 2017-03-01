@@ -10,7 +10,7 @@ var EventBus = new Vue();
 window.axios = axios.create({
   baseURL: Config.get('apiUrl'),
   params: {
-      token: Config.get('token')
+    token: Config.get('token')
   }
 });
 
@@ -33,3 +33,6 @@ new Vue({
   el: '#app',
   render: h => h(App)
 })
+
+ga('create', Config.get('gaTrackingID'), 'auto');
+ga('send', 'pageview');
