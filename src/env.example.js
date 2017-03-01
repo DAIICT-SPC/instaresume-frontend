@@ -1,4 +1,5 @@
 export default {
     apiUrl: "http://url.to/api",
-    apiKey: "your-api-key"
+    apiKey: "your-api-key",
+    googleAnalyticsTrackingID: "google-analytics-tracking-id"
 };
