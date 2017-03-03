@@ -12,9 +12,10 @@
   .navbar-button {
     float: right;
     margin: ($sidebar-padding/2) + 2;
+    margin-left: 0;
     color: $grey;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 
     &:hover {
       color: $grey-dark;
@@ -62,6 +63,10 @@
       margin-right: 5px;
     }
 
+    .account-name {
+      display: none;
+    }
+
     .account-dropdown {
       position: absolute;
       top: 100%;
@@ -89,9 +94,14 @@
     }
   }
 }
-
 @media only screen and (min-device-width : 700px) {
   .navbar {
+    .account-tab {
+      .account-name {
+        display: inline;
+      }
+    }
+
     .logo {
       display: inline-block;
     }
