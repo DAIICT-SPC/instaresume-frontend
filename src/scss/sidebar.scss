@@ -15,7 +15,8 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    width: $sidebar-width;
+    width: 100%;
+    max-width: 100%;
     background: #fff;
     border-top: solid 1px darken($white-ter, 5%);
     text-align: center;
@@ -23,14 +24,19 @@
     text-transform: uppercase;
     cursor: pointer;
     color: $grey;
+    box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.05);
 
     &:hover {
-        background: $white-ter;
+      background: $white-ter;
     }
   }
 }
 @media only screen and (min-device-width : 1000px) {
   .sidebar {
     max-width: $sidebar-width;
+
+    .sidebar-footer {
+      max-width: $sidebar-width;
+    }
   }
 }
