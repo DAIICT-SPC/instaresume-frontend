@@ -7,12 +7,14 @@
         </a>
 
         <generate-button></generate-button>
+        <sync-button></sync-button>
     </div>
 </template>
 
 <script>
 import AccountTab from './AccountTab'
 import GenerateButton from './GenerateButton'
+import SyncButton from './SyncButton'
 
 export default {
     name: 'navbar',
@@ -32,6 +34,7 @@ export default {
 
     components: {
         GenerateButton,
+        SyncButton,
         AccountTab
     }
 }

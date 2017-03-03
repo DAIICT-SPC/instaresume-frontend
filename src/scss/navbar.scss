@@ -9,7 +9,7 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
   z-index: 10;
 
-  .generate-button {
+  .navbar-button {
     float: right;
     margin: ($sidebar-padding/2) + 2;
     color: $grey;
@@ -96,7 +96,7 @@
       display: inline-block;
     }
 
-    .generate-button {
+    .navbar-button {
       .button-text {
         display: block;
       }

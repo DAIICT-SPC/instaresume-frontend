@@ -3,8 +3,11 @@
   <navbar :user="user"></navbar>
   <sidebar :resume="resume"></sidebar>
   <resume-template :resume="resume"></resume-template>
-  <div class="error" v-if="error" @click="error = false">
-      Something went wrong. Please try again!
+  <div class="error-notification notification" v-if="error" @click="error = false">
+    Something went wrong. Please try again!
+  </div>
+  <div class="success-notification notification" v-if="resumeSynced" @click="resumeSynced = false">
+    Your resume was updated successfully.
   </div>
 </div>
 </template>
@@ -22,12 +25,26 @@ export default {
   name: 'dashboard',
 
   created() {
+    this.$bus.$on('sync-resume', () => {
+      let dashboardState = this;
+      let bus = this.$bus;
+      // Sync Resume Data
+      this.syncResumeData(() => {
+        bus.$emit('resume-synced', {});
+        dashboardState.resumeSynced = true;
+
+        setTimeout(() => {
+          dashboardState.resumeSynced = false;
+        }, 6000);
+      });
+    });
+
     this.$bus.$on('generate-resume', () => {
-      this.syncResumeData(this.generateResume);
+      // Generate Resume
+      this.generateResume(this.resume);
     });
 
     this.$bus.$on('generate-resume-error', (errors) => {
-      this.errors = errors;
       this.error = true;
       setTimeout(() => {
         this.error = false;
@@ -46,7 +63,7 @@ export default {
     return {
       resume: resumeData,
       error: false,
-      errors: {}
+      resumeSynced: false
     }
   },
 
