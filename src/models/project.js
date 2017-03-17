@@ -3,5 +3,6 @@ export default {
     description: '',
     start: '',
     end: '',
-    team_size: ''
+    team_size: '',
+    guide: ''
 };
