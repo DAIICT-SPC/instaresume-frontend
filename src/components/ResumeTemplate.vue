@@ -29,7 +29,7 @@
 
             </table>
 
-            <table class="w-100 section">
+            <table class="w-100 section" v-if="resume.degrees.length">
                 <tr>
                     <td colspan="4" class="section-header">
                         <h3>EDUCATION</h3>
@@ -64,7 +64,7 @@
                         <h3>SKILLS</h3>
                     </td>
                 </tr>
-                <tr>
+                <tr v-if="resume.skill.expertise">
                     <td class="w-30">
                         <b>Expertise Area/Area(s) of
                             Interest</b>
@@ -73,7 +73,7 @@
                         {{resume.skill.expertise}}
                     </td>
                 </tr>
-                <tr>
+                <tr v-if="resume.skill.programming_languages">
                     <td class="w-30">
                         <b>Programming Language(s)</b>
                     </td>
@@ -81,7 +81,7 @@
                         {{resume.skill.programming_languages}}
                     </td>
                 </tr>
-                <tr>
+                <tr v-if="resume.skill.tools">
                     <td class="w-30">
                         <b>Tools and
                             Technologies</b>
@@ -92,7 +92,7 @@
                 </tr>
             </table>
             <div class="page-break"></div>
-            <table class="w-100 section">
+            <table class="w-100 section" v-if="resume.internships.length">
                 <tr>
                     <td colspan="3" class="section-header">
                         <h3>PROFESSIONAL EXPERIENCE/INTERNSHIPS</h3>
@@ -119,7 +119,7 @@
                     </td>
                 </tr>
             </table>
-            <table class="w-100 section">
+            <table class="w-100 section" v-if="resume.projects.length">
                 <tr>
                     <td colspan="2" class="section-header">
                         <h3>PROJECTS</h3>
@@ -145,7 +145,7 @@
                 </tr>
             </table>
 
-            <table class="w-100 section">
+            <table class="w-100 section" v-if="resume.positions.length">
                 <tr>
                     <td colspan="2" class="section-header">
                         <h3>POSITION OF RESPONSIBILITY</h3>
@@ -162,7 +162,7 @@
                 </tr>
             </table>
 
-            <table class="w-100 section">
+            <table class="w-100 section" v-if="resume.awards.length">
                 <tr>
                     <td colspan="2" class="section-header">
                         <h3>AWARDS AND ACHIEVEMENTS</h3>
@@ -179,7 +179,7 @@
                 </tr>
             </table>
 
-            <table class="w-100 section">
+            <table class="w-100 section" v-if="resume.hobbies.length">
                 <tr>
                     <td colspan="2" class="section-header">
                         <h3>INTERESTS AND HOBBIES</h3>
