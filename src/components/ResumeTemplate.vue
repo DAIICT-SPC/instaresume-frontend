@@ -144,6 +144,24 @@
                     </td>
                 </tr>
             </table>
+
+            <table class="w-100 section">
+                <tr>
+                    <td colspan="2" class="section-header">
+                        <h3>POSITION OF RESPONSIBILITY</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <ul class="list">
+                                <li v-for="(position, index) in resume.positions">
+                                    {{position.name}}
+                                </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+
             <table class="w-100 section">
                 <tr>
                     <td colspan="2" class="section-header">

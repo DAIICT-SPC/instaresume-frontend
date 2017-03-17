@@ -7,6 +7,7 @@ export default {
     skill: skillData,
     projects: [],
     internships: [],
+    positions: [],
     awards: [],
     hobbies: []
 };

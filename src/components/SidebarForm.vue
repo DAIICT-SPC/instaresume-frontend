@@ -20,6 +20,10 @@
             <project-info :projects="resume.projects"></project-info>
         </panel>
 
+        <panel group="sidebar-panel" id="position-info" title="Position of Responsibility" >
+            <position-info :positions="resume.positions"></position-info>
+        </panel>
+
         <panel group="sidebar-panel" id="award-info" title="Awards and Achievements" >
             <award-info :awards="resume.awards"></award-info>
         </panel>
@@ -35,6 +39,7 @@ import Panel from './Panel'
 import PersonalInfo from './form/PersonalInfo'
 import EducationInfo from './form/EducationInfo'
 import InternshipInfo from './form/InternshipInfo'
+import PositionInfo from './form/PositionInfo'
 import ProjectInfo from './form/ProjectInfo'
 import SkillInfo from './form/SkillInfo'
 import HobbyInfo from './form/HobbyInfo'
@@ -48,6 +53,7 @@ export default {
     PersonalInfo,
     EducationInfo,
     InternshipInfo,
+    PositionInfo,
     ProjectInfo,
     AwardInfo,
     HobbyInfo,
