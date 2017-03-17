@@ -94,6 +94,33 @@
             <div class="page-break"></div>
             <table class="w-100 section">
                 <tr>
+                    <td colspan="3" class="section-header">
+                        <h3>PROFESSIONAL EXPERIENCE/INTERNSHIPS</h3>
+                    </td>
+                </tr>
+
+                <tr v-for="(internship, index) in resume.internships">
+                    <td class="w-20" valign="top">
+                        <p>
+                            <b>{{internship.name}}</b>
+                        </p>
+                    </td>
+                    <td class="w-60" valign="top">
+                        <p>
+                            {{internship.description}}
+                            <p v-if="internship.guide">
+                                <i>Guide: {{internship.guide}}</i>
+                            </p>
+                        </p>
+                    </td>
+                    <td class="w-20" valign="top">
+                        <p>({{internship.start}} - {{internship.end}})</p>
+                        <p v-show="internship.team_size">Team Size - {{internship.team_size}}</p>
+                    </td>
+                </tr>
+            </table>
+            <table class="w-100 section">
+                <tr>
                     <td colspan="2" class="section-header">
                         <h3>PROJECTS</h3>
                     </td>

@@ -12,6 +12,10 @@
             <skill-info :skill="resume.skill"></skill-info>
         </panel>
 
+        <panel group="sidebar-panel" id="internship-info" title="Professional Experience/Internships" >
+            <internship-info :internships="resume.internships"></internship-info>
+        </panel>
+
         <panel group="sidebar-panel" id="project-info" title="Projects" >
             <project-info :projects="resume.projects"></project-info>
         </panel>
@@ -30,6 +34,7 @@
 import Panel from './Panel'
 import PersonalInfo from './form/PersonalInfo'
 import EducationInfo from './form/EducationInfo'
+import InternshipInfo from './form/InternshipInfo'
 import ProjectInfo from './form/ProjectInfo'
 import SkillInfo from './form/SkillInfo'
 import HobbyInfo from './form/HobbyInfo'
@@ -42,6 +47,7 @@ export default {
     Panel,
     PersonalInfo,
     EducationInfo,
+    InternshipInfo,
     ProjectInfo,
     AwardInfo,
     HobbyInfo,
