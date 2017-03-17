@@ -133,6 +133,9 @@
                         </p>
                         <p>
                             {{project.description}}
+                            <p v-if="project.guide">
+                                <i>Guide: {{project.guide}}</i>
+                            </p>
                         </p>
                     </td>
                     <td class="w-20" valign="top">

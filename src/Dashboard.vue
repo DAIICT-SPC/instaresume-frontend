@@ -54,7 +54,7 @@ export default {
     // Fetch resume from firebase
     Database.resumes.get(this.user.id, (resume) => {
       if (resume) {
-        this.resume = Object.assign(this.resume, resume);
+        Utils.mergeResume(this.resume, resume);
       }
     });
   },

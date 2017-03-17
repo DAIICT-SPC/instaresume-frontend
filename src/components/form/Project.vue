@@ -16,6 +16,13 @@
             </div>
 
             <div class="form-input">
+                <label class="label">Guide/Supervisor</label>
+                <p class="control">
+                  <input class="input" type="text" placeholder="Prof. X" v-model="project.guide">
+                </p>
+            </div>
+
+            <div class="form-input">
                 <label class="label">Start</label>
                 <p class="control">
                   <input class="input" type="text" placeholder="Jun, 2016" v-model="project.start">

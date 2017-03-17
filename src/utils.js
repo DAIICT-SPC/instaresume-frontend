@@ -1,4 +1,7 @@
 import User from './models/user'
+import Project from './models/project'
+import Internship from './models/internship'
+import Degree from './models/degree'
 
 export default {
   createUserFromGoogleData(data) {
@@ -8,6 +11,25 @@ export default {
     User.photoUrl = data.photoURL;
 
     return User;
+  },
+
+  mergeResume(localResume, remoteResume) {
+    Object.assign(localResume, remoteResume);
+
+    // Merge Projects
+    localResume.projects = localResume.projects.map((project, index) => {
+      return Object.assign(Object.assign({}, Project), project);
+    });
+
+    // Merge Internships
+    localResume.internships = localResume.internships.map((internship, index) => {
+      return Object.assign(Object.assign({}, Internship), internship);
+    });
+
+    // Merge Degrees
+    localResume.degrees = localResume.degrees.map((degree, index) => {
+      return Object.assign(Object.assign({}, Degree), degree);
+    });
   },
 
   downloadFile(sUrl, fileName) {
@@ -25,9 +47,9 @@ export default {
 
       if (link.download !== undefined) {
 
-          if (fileName === undefined) {
-            //Set HTML5 download attribute. This will prevent file from opening if supported.
-            fileName = sUrl.substring(sUrl.lastIndexOf('/') + 1, sUrl.length);
+        if (fileName === undefined) {
+          //Set HTML5 download attribute. This will prevent file from opening if supported.
+          fileName = sUrl.substring(sUrl.lastIndexOf('/') + 1, sUrl.length);
         }
 
         link.download = fileName;
