@@ -2,6 +2,7 @@ import User from './models/user'
 import Project from './models/project'
 import Internship from './models/internship'
 import Degree from './models/degree'
+import Skill from './models/skill'
 
 export default {
   createUserFromGoogleData(data) {
@@ -30,6 +31,9 @@ export default {
     localResume.degrees = localResume.degrees.map((degree, index) => {
       return Object.assign(Object.assign({}, Degree), degree);
     });
+
+    // Merge Skills
+    localResume.skill = Object.assign(Object.assign({}, Skill), localResume.skill);
   },
 
   downloadFile(sUrl, fileName) {
