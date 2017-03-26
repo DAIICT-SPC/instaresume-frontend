@@ -90,6 +90,14 @@
                         {{resume.skill.tools}}
                     </td>
                 </tr>
+                <tr v-if="resume.skill.technical_electives">
+                    <td class="w-30">
+                        <b>Technical Electives</b>
+                    </td>
+                    <td class="w-70">
+                        {{resume.skill.technical_electives}}
+                    </td>
+                </tr>
             </table>
             <div class="page-break"></div>
             <table class="w-100 section" v-if="resume.internships.length">
