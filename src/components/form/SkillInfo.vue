@@ -20,6 +20,13 @@
               <textarea class="textarea input" type="text" placeholder="Android, Socket.io, Arduino, Firebase" v-model="skill.tools"></textarea>
             </p>
         </div>
+
+        <div class="form-input">
+            <label class="label">Technical Electives</label>
+            <p class="control">
+                <textarea class="textarea input" type="text" placeholder="Cryptography, Software Testing" v-model="skill.technical_electives"></textarea>
+            </p>
+        </div>
     </div>
 </template>
 
