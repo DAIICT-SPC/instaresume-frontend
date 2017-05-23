@@ -4,10 +4,27 @@
   <sidebar :resume="resume"></sidebar>
   <resume-template :resume="resume"></resume-template>
   <div class="error-notification notification" v-if="error" @click="error = false">
-    Something went wrong. Please try again!
+    <p>
+      Something went wrong. Please try again!
+    </p>
+    <br />
+    <small>Click to Close</small>
   </div>
   <div class="success-notification notification" v-if="resumeSynced" @click="resumeSynced = false">
-    Your resume was updated successfully.
+    <p>
+      Your resume was updated successfully.
+    </p>
+    <br />
+    <small>Click to Close</small>
+  </div>
+  <div class="success-notification notification" v-if="!notificationIsRead" @click="markNotificationAsRead">
+    <b>New Updates</b>
+    <br />
+    <p>
+      Blocks inside the Education, Professional Experience/Internships and Projects tabs can be re-ordered via drag and drop.
+    </p>
+    <br />
+    <small>Click to Close</small>
   </div>
 </div>
 </template>
@@ -57,13 +74,22 @@ export default {
         Utils.mergeResume(this.resume, resume);
       }
     });
+
+    // Fetch unread notifications from firebase
+    Database.notifications.get(this.user.id, (isRead) => {
+      if (isRead != null && isRead == true)
+        this.notificationIsRead = true;
+      else
+        this.notificationIsRead = false;
+    });
   },
 
   data() {
     return {
       resume: resumeData,
       error: false,
-      resumeSynced: false
+      resumeSynced: false,
+      notificationIsRead: false
     }
   },
 
@@ -82,6 +108,12 @@ export default {
   },
 
   methods: {
+    markNotificationAsRead() {
+      // Mark notification as read
+      Database.notifications.markAsRead(this.user.id, () => {
+        this.notificationIsRead = true;
+      });
+    },
     syncResumeData(fn) {
       // Sync resume data
       // then generate it.

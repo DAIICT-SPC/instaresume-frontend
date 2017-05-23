@@ -8,6 +8,17 @@ export default {
     }
   },
 
+  notifications: {
+    markAsRead(user_id, fn) {
+      return firebaseDB.ref('notifications/' + user_id).set(true).then(fn());
+    },
+    get(user_id, fn) {
+      return firebaseDB.ref('notifications/' + user_id).once('value').then(function(snapshot) {
+        fn(snapshot.val());
+      });
+    }
+  },
+
   resumes: {
     get(user_id, fn) {
       return firebaseDB.ref('resumes/' + user_id).once('value').then(function(snapshot) {
