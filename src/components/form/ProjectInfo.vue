@@ -1,6 +1,8 @@
 <template lang="html">
     <div class="form project-info-form">
-            <project v-for="(project, index) in projects" :project="project" :id="parseInt(index)"></project>
+        <draggable :list="draggableProjects" :options="{group: 'internships'}">
+            <project v-for="(project, index) in draggableProjects" :project="project" :id="parseInt(index)"></project>
+        </draggable>
         <div>
             <button type="button" class="button is-medium is-primary block" @click="addProject">
                 <span class="fa icon icon-small fa-plus"></span> Add
@@ -10,6 +12,7 @@
 </template>
 
 <script>
+import draggable from 'vuedraggable';
 import Project from './Project'
 import projectStub from '../../models/project'
 
@@ -29,7 +32,9 @@ export default {
   },
 
   computed: {
-
+    draggableProjects() {
+      return this.projects;
+    }
   },
 
   methods: {
@@ -41,7 +46,8 @@ export default {
   },
 
   components: {
-    Project
+    Project,
+    draggable
   },
 
   props: {
