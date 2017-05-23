@@ -1,9 +1,11 @@
 <template lang="html">
     <div class="form education-info-form">
-            <degree v-for="(degree, index) in degrees" :degree="degree" :id="parseInt(index)"></degree>
+        <draggable :list="draggableDegrees" :options="{}">
+           <degree v-for="(degree, index) in draggableDegrees" :degree="degree" :id="parseInt(index)"></degree>
+        </draggable>
         <div>
             <button type="button" class="button is-medium is-primary block" @click="addDegree">
-                <span class="fa icon icon-small fa-plus"></span> Add
+                <span class="fa icons icon-small fa-plus"></span> Add
             </button>
         </div>
     </div>
@@ -11,6 +13,7 @@
 
 <script>
 import Degree from './Degree'
+import draggable from 'vuedraggable'
 import degreeStub from '../../models/degree'
 
 export default {
@@ -29,7 +32,9 @@ export default {
   },
 
   computed: {
-
+    draggableDegrees() {
+      return this.degrees;
+    }
   },
 
   methods: {
@@ -41,13 +46,14 @@ export default {
   },
 
   components: {
-    Degree
+    Degree,
+    draggable,
   },
 
   props: {
     degrees: {
-        required: true,
-        type: Array
+      required: true,
+      type: Array
     }
   }
 
