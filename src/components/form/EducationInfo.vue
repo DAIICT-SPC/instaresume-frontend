@@ -1,6 +1,6 @@
 <template lang="html">
     <div class="form education-info-form">
-        <draggable :list="draggableDegrees" :options="{}">
+        <draggable :list="draggableDegrees" :options="{group: 'degrees'}">
            <degree v-for="(degree, index) in draggableDegrees" :degree="degree" :id="parseInt(index)"></degree>
         </draggable>
         <div>
