@@ -1,6 +1,8 @@
 <template lang="html">
     <div class="form internship-info-form">
-            <internship v-for="(internship, index) in internships" :internship="internship" :id="parseInt(index)"></internship>
+        <draggable :list="draggableInternships" :options="{group: 'internships'}">
+            <internship v-for="(internship, index) in draggableInternships" :internship="internship" :id="parseInt(index)"></internship>
+        </draggable>
         <div>
             <button type="button" class="button is-medium is-primary block" @click="addInternship">
                 <span class="fa icon icon-small fa-plus"></span> Add
@@ -10,6 +12,7 @@
 </template>
 
 <script>
+import draggable from 'vuedraggable'
 import Internship from './Internship'
 import internshipStub from '../../models/internship'
 
@@ -29,7 +32,9 @@ export default {
   },
 
   computed: {
-
+    draggableInternships() {
+      return this.internships;
+    }
   },
 
   methods: {
@@ -41,7 +46,8 @@ export default {
   },
 
   components: {
-    Internship
+    Internship,
+    draggable
   },
 
   props: {
